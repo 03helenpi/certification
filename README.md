@@ -34,3 +34,39 @@
 - Обработка ошибок через try...except
 - Unit-тесты для models.py и analysis.py (unittest)
 - Документирование кода с помощью docstrings в формате numpydoc
+
+## Установка и запуск
+
+### Клонирование репозитория
+
+```bash
+git clone <URL вашего репозитория>
+cd certification
+```
+
+### Создание и активация виртуального окружения
+
+```bash
+python -m venv venv
+# Для Windows
+venv\Scripts\activate.bat
+# Для macOS/Linux
+source venv/bin/activate
+```
+
+### Установка зависимостей
+
+```bash
+pip install -r requirements.txt
+```
+
+### Запуск приложения
+
+```bash
+python -m main
+```
+
+  ## Запуск тестов
+Для запуска unit-тестов выполните команду:
+```bash
+python -m unittest discover tests```
